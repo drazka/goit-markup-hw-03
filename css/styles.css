@@ -36,8 +36,9 @@ img {
     padding: 188px 0;
 }
 
-footer .dark-box {
+.dark-box-footer {
     padding: 100px 0 100px;
+    background-color: #2E2F42;
 }
 
 .description-header {
@@ -141,6 +142,17 @@ footer .logo {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.porfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.porfolio-list-point{
+    width: calc((100% - 48px) / 3);;
 }
 
 .section2-list {
