@@ -182,7 +182,7 @@ footer .logo {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    text-align: left;
+    /* text-align: left; */
     color: #FFFFFF;
     cursor: pointer;
     display: block;
