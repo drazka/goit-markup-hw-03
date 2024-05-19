@@ -8,6 +8,12 @@ img {
     display: block;
 }
 
+ul,
+ol,
+a {
+  list-style-type: none;
+}
+
 .navigation-line-header {
     border-bottom: 1px solid #e7e9fc;;
    }
