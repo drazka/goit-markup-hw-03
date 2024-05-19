@@ -4,6 +4,55 @@ body {
     background-color: #FFFFFF;
   }
 
+
+.contact {
+    font-style: normal;
+}
+
+.contact-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#434455;
+}
+
+.dark-box {
+    background-color: #2E2F42;
+}
+
+.description-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.description{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.description-white{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F4F4FD;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -41,22 +90,15 @@ body {
     color: #404bbf;
 }
 
-.contact {
-    font-style: normal;
+.navigation-line,
+.navigation-line nav,
+.navigation-line address,
+.navigation-line ul {
+    display: flex;
 }
 
-.contact-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color:#434455;
-}
-
-.dark-box {
-    background-color: #2E2F42;
+.navigation-line li {
+    display: block;
 }
 
 .title-text {
@@ -86,35 +128,6 @@ body {
     background-color: #404bbf;
 }
 
-.description-header {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-}
-
-.description{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #434455;
-}
-
-.description-white{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #F4F4FD;
-}
 
 .team {
     background-color: #F4F4FD;
@@ -133,4 +146,8 @@ body {
 
 .person-in-team {
     background-color: #FFFFFF;
+}
+
+.section {
+    padding: 120px 0;
 }
