@@ -44,6 +44,11 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.under-image .description-header {
+    text-align: center;
 }
 
 .description{
@@ -54,6 +59,10 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+}
+
+.under-image .description {
+    text-align: center;
 }
 
 .description-white{
@@ -125,6 +134,15 @@ img {
     padding: 0 15px;
 }
 
+.section2-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section2-list-point {
+    width: calc((100%-3*24px)/4);
+}
+
 .title-text {
     font-family: "Roboto", sans-serif;
     font-size: 56px;
@@ -177,6 +195,11 @@ img {
     background-color: #F4F4FD;
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .section-header {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -186,12 +209,19 @@ img {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .person-in-team {
     background-color: #FFFFFF;
+    width: calc((100% - 3*24px)/ 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section {
     padding: 120px 0;
+}
+
+.under-image {
+    padding: 32px 16px;
 }
