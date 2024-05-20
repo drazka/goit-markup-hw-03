@@ -21,24 +21,6 @@ a {
 }
 
 
-.contact {
-    font-style: normal;
-}
-
-.contact-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    /* line-height: 24px; */
-    letter-spacing: 0.02em;
-    text-align: left;
-    color:#434455;
-}
-
-.contact-link-list {
-    display: flex;
-    gap: 40px;
-}
 
 .dark-box {
     background-color: #2E2F42;
@@ -116,6 +98,35 @@ footer .logo {
     color: #f4f4fd;
 }
 
+
+
+/* header class */
+.navigation-line-header {
+    border-bottom: 1px solid #e7e9fc;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+   }
+
+/* div class */
+.navigation-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* nav class */
+.navigation-links {
+    display: flex;
+    align-items: center;
+}
+
+/* lista class */
+.internal-link-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* punkt w li */
 .internal-link{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -134,23 +145,27 @@ footer .logo {
     color: #404bbf;
 }
 
-.navigation-line-header {
-    border-bottom: 1px solid #e7e9fc;
-    min-height: 72px;
-   }
-
-.navigation-line {
+/* address class - poziom nav */
+.contact {
+    font-style: normal;
     display: flex;
 }
 
-.navigation-links {
-    display: flex;
-    align-items: center;
-}
-
-.internal-link-list {
+/* li address */
+.contact-link-list {
     display: flex;
     gap: 40px;
+}
+
+/* punkt w li address  */
+.contact-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px; */
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#434455;
 }
 
 .container {
