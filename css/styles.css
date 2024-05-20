@@ -268,7 +268,7 @@ footer .logo {
     padding: 32px 16px;
 }
 
-.porfolio-list .under-image {
+.porfolio-list .under-image .porfolio-under-image{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
