@@ -20,9 +20,6 @@ a {
   list-style-type: none;
 }
 
-.navigation-line-header {
-    border-bottom: 1px solid #e7e9fc;;
-   }
 
 .contact {
     font-style: normal;
@@ -136,6 +133,11 @@ footer .logo {
 .contact-link:focus {
     color: #404bbf;
 }
+
+.navigation-line-header {
+    border-bottom: 1px solid #e7e9fc;
+    min-height: 72px;
+   }
 
 .navigation-line {
     display: flex;
@@ -260,6 +262,10 @@ footer .logo {
 
 .under-image {
     padding: 32px 0;
+}
+
+.porfolio-under-image {
+    padding: 32px 16px;
 }
 
 .porfolio-list .under-image {
